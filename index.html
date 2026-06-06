@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat UMG</title>
+
+  <!-- ✅ CORRECTO -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>💬 Chat UMG</h1>
+
+    <div class="card">
+      <h2>Login</h2>
+      <input id="username" placeholder="Usuario (sin @miumg.edu.gt)">
+      <input id="password" type="password" placeholder="Contraseña">
+      <button onclick="login()">Iniciar sesión</button>
+    </div>
+
+    <div class="card">
+      <h2>Enviar Mensaje</h2>
+      <input id="mensaje" placeholder="Escribe tu mensaje">
+      <button onclick="enviarMensaje()">Enviar</button>
+    </div>
+
+    <div class="card">
+      <h2>Resultado</h2>
+      <pre id="resultado"></pre>
+    </div>
+
+  </div>
+
+  <!-- ✅ CORRECTO -->
+  <script src="app.js"></script>
+
+</body>
+</html>
